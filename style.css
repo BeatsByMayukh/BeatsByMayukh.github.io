@@ -1,0 +1,594 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+
+
+
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37)), url('web bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+
+    background-attachment: fixed;
+    background-size: cover;
+
+    background-position: center;
+    min-height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+     overflow-x: hidden; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+#bar{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color:#fff;
+    font-size: 35px;
+    position: fixed;
+    z-index: 1000;
+    transition: all 0.5s ease;
+    
+}
+
+#cross{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color:#fff;
+    font-size: 35px;
+    position: fixed;
+    z-index: 1000;
+    display: none;
+    transition: all 0.5s ease;
+}
+
+
+
+
+#nav-ul {
+    flex-direction: column; 
+    gap: 2rem;
+    text-align: center;
+    position: fixed;
+     align-items: center;
+    justify-content: center; 
+
+
+
+    width: 100%;
+    height: 70vh;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+    bottom: 0;
+    left: 0;
+
+    top: 100%;
+    right: 0;
+    z-index: 999;
+    transition: all 0.35s ease;
+    border-bottom: 2px solid #fff;
+   
+
+
+
+
+
+
+    
+
+}
+
+#logo{
+    margin-right: 2rem;
+    margin-top: 1rem;
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.nav-li{
+    list-style: none;
+}
+.footer-li{
+    list-style: none;
+}
+.nav-a{
+    
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    transition: all 0.3s ease;
+
+
+
+
+
+    
+}
+
+.nav-a:hover{
+    margin-left: 3rem;
+    color: #262a2c;
+
+}
+
+
+
+
+
+#header {
+
+
+    width: 100%;
+}
+
+#header h2 {
+
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 6rem;
+    color: #fff;
+    margin-top: 10rem;
+    width: 100%;
+    margin-bottom: 3rem;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+#aesthetic {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+        overflow: hidden;
+
+    
+
+
+
+
+}
+
+#aesthetic h2 {
+    background-color: #00000054;
+    width: 100%;
+
+    color: rgb(13, 248, 225);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: -3rem;
+    margin-top: 2rem;
+
+
+
+}
+
+
+.audio-1 {
+
+    height: 2.5rem;
+      margin-left: 3rem;  
+    margin-bottom: 1rem;
+
+
+
+}
+
+.audio-box h4 {
+   
+    margin-left: 4rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+
+
+    padding:  0.5rem 0.3rem;
+
+
+
+}
+
+
+
+.name1st {
+    color: rgb(0, 255, 229);
+
+
+}
+
+.audio-box {
+     width:800px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+  
+background: transparent;
+backdrop-filter: blur(100px);
+    border: 1px solid #fff;
+    position: relative;
+    margin-left: 3rem;
+    margin-right: 3rem;
+     transition: all 0.2s ease;
+     border-radius: 6px;
+  
+    
+
+   
+
+
+   
+
+}
+
+.audio-box:hover{
+    box-shadow:
+    2.1px 1.1px 5.3px rgba(0, 0, 0, 0.17),
+    7.1px 3.8px 17.9px rgba(0, 0, 0, 0.209),
+    32px 17px 80px rgba(0, 0, 0, 0.212)
+  ;
+}
+
+.audio-box img{
+
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 6px;
+
+    
+    
+}
+
+#phonk {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 3rem;
+
+        align-items: center;
+    justify-content: center;
+    
+        overflow: hidden;
+
+
+
+
+
+}
+
+#phonk h2 {
+    background-color: #00000054;
+    width: 100%;
+
+    color: rgb(13, 248, 225);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: -3rem;
+    margin-top: 2rem;
+
+
+
+}
+
+
+
+
+
+#rap {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 3rem;
+        align-items: center;
+    justify-content: center;
+    overflow: hidden;
+ 
+    
+
+
+
+
+
+}
+
+#rap h2 {
+    background-color: #00000054;
+    width: 100%;
+
+    color: rgb(13, 248, 225);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: -3rem;
+    margin-top: 2rem;
+
+
+
+}
+
+.audio-2{
+
+    position: absolute;
+ bottom: 0; 
+    
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+   
+            
+}
+
+#audio-box-a{
+    text-decoration: none;
+    
+}
+
+
+.player1{
+    position:fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.596)), url('deathbed.jpg'); 
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center center;
+    z-index: 1999;
+     top: 0;
+    left: 0;
+    right: 0; 
+     bottom: 0;   
+     height: 100%; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+ 
+
+
+}
+
+
+        .image-div img{
+            height:20rem;
+               width:20rem;
+            border-radius: 40px;
+            display: flex;
+              border: 1px solid #fff;
+        }
+
+        .player1 h3{
+       
+                    color: #fff;
+            font-family: 'Poppins', sans-serif;
+        }
+      
+
+
+
+footer{
+    margin-top: auto;
+    text-align: center;
+    background-color: #000000b7;
+    width: 100%;
+}
+
+footer h3{
+    margin-top: 4rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+} 
+.foot-h3{
+    margin-top: 3rem;
+    color: #fff;
+    
+
+   
+    
+}
+
+
+#first-h3{
+    margin-bottom: 2rem;
+}
+#sec-h3{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+
+.footer-col{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0;
+}
+.sub-col{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 27rem;
+}
+.footer-row{
+    gap:1rem;
+}
+
+.footer-a{
+    
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+
+
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease;
+
+
+
+
+
+    
+}
+
+.footer-a:hover{
+    text-decoration: underline;
+}
+
+.footer-li{
+    margin-bottom: 0.7rem;
+}
+
+
+.foot{
+    margin-bottom: 1rem;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    #rap h2,#phonk h2,#aesthetic h2{
+        font-size: 2rem;
+    }
+
+
+    .sub-col{
+        gap: 0rem;
+    }
+
+    .audio-1{
+        margin-left: 1rem;
+    }
+
+    .audio-box{
+        width: 308px;
+    }
+
+   
+
+
+
+}
+
+@media only screen and (min-width:481px) and (max-width:835px) {
+    .audio-box{
+        width: 460px;
+    }
+    
+}
+
+
+@media only screen and (min-width:481px) and (max-width:1499px){
+
+    .sub-col{
+        gap: 8rem;
+    }
+
+}
+
+@media only screen and (min-width:900px){
+   
+    .audio-box h4{
+        font-size: 1.5rem;
+    }
+
+    .audio-1{
+        width: 50rem;
+    }
+
+
+
+
+ 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
