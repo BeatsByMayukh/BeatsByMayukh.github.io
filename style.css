@@ -89,6 +89,16 @@ main {
     transition: all 0.5s ease;
 }
 
+#house{
+    margin-left: 2.3rem;
+    margin-top: 5rem;
+    color:#fff;
+    font-size: 20px;
+    position: fixed;
+    z-index: 999;
+    transition: all 0.5s ease;
+}
+
 
 
 
@@ -156,7 +166,8 @@ main {
 
 .nav-a:hover{
     margin-left: 3rem;
-    color: #262a2c;
+    color: #9024d8;
+  
 
 }
 
